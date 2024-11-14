@@ -1,0 +1,63 @@
+.content-area {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px; /* Padding for spacing */
+    min-height: calc(100vh - 100px); /* Adjust to fit your header height */
+}
+
+.searching_box {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter-label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.filter-select {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 20px; /* Increased padding for a longer effect */
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 200px; /* Set a fixed width for the select */
+}
+
+.filter-select:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.filter-select img {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.filter-icon {
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: auto; /* Move arrow to the right */
+    font-size: 16px; /* Adjust arrow size */
+    color: #333; /* Arrow color */
+}

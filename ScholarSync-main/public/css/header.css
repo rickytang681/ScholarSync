@@ -1,0 +1,91 @@
+.pa_header {
+    height: 40px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; /* Adds a light gray line at the bottom */ 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a soft shadow below */
+}
+
+.left-section {
+
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.middle-section { 
+    flex: 1;
+    margin-left:70px;
+    margin-right:70px;
+    max-width: 500px;
+    display:flex;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.middle-section button {
+    background: none; /* Removes the button background */
+    border: none; /* Removes the border */
+    padding: 10px 20px; /* Adds some padding to the buttons */
+    margin: 0 10px; /* Adds some space between buttons */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 15px; /* Increases the font size */
+    display: flex; /* Allows flexbox to align items within the button */
+    align-items: center; /* Vertically centers the icon and text */
+    justify-content: center; /* Horizontally centers the icon and text */
+    /*flex-direction: column;*/
+}
+
+.right-section {
+ 
+    width: 150px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nott_logo{
+    height:45px;
+}
+.middle-section button img {
+    height: 22px; /* Sets the icon height */
+    width: 22px; /* Sets the icon width */
+    margin-right: 5px; /* Adds space between the icon and the text */
+}
+
+.users_photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.more-button {
+    background-color: #f2f2f2; /* Light grey background */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.more-button .arrow {
+    font-size: 10px;
+    margin-left: 4px; /* Space between text and arrow */
+}
+
+.nav-button:hover {
+    display:flex;
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Smaller shadow */
+    transform: translateY(-3px); /* Slightly lower lift effect */
+    border-radius: 8px; /* Rounded edges on hover */
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease, border-radius 0.2s ease;
+}
+
